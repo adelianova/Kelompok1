@@ -18,10 +18,11 @@
         <activity android:name=".Lagu" />
         <activity android:name=".Makanan" />
         <activity android:name=".Pakaian" />
-        <activity android:name=".Provinsi" />
-        <activity android:name=".Rumah" />
+        <activity android:name=".Prov.Provinsi" />
+        <activity android:name=".rumh.Rumah" />
         <activity android:name=".Tentangkami" />
         <activity android:name=".Wisata" />
+        <activity android:name=".rumh.DetailActivity" />
 
     </application>
 

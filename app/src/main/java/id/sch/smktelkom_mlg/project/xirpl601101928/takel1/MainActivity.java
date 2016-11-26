@@ -13,6 +13,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Prov.Provinsi;
+import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.rumh.Rumah;
+
 public class MainActivity extends AppCompatActivity {
     //Mendefinisikan variabel
     private Toolbar toolbar;
