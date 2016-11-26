@@ -1,5 +1,7 @@
 package id.sch.smktelkom_mlg.project.xirpl601101928.takel1;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -96,5 +98,31 @@ public class MainActivity extends AppCompatActivity {
         actionBarDrawerToggle.syncState();
     }
 
+    @Override
+    public void onBackPressed() {
+
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        //pesan keluar
+        builder.setMessage("Apakah Anda yakin keluar dari Aplikasi?")
+                .setCancelable(false)
+                //Button Keluar
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        finish();
+                        moveTaskToBack(true);
+                        System.exit(0);
+                    }
+                })
+                //Button Batal
+                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                });
+        AlertDialog alert = builder.create();
+        alert.show();
+
+    }
 
 }
