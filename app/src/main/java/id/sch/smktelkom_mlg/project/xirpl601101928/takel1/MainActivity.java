@@ -1,7 +1,6 @@
 package id.sch.smktelkom_mlg.project.xirpl601101928.takel1;
 
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -13,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Makann.Makanan;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Prov.Provinsi;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.rumh.Rumah;
 
@@ -107,25 +107,9 @@ public class MainActivity extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         //pesan keluar
-        builder.setMessage("Apakah Anda yakin keluar dari Aplikasi?")
-                .setCancelable(false)
-                //Button Keluar
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        finish();
-                        moveTaskToBack(true);
-                        System.exit(0);
-                    }
-                })
-                //Button Batal
-                .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        dialog.cancel();
-                    }
-                });
-        AlertDialog alert = builder.create();
-        alert.show();
-
+        finish();
+        moveTaskToBack(true);
+        System.exit(0);
     }
 
 }
