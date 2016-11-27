@@ -56,6 +56,8 @@ public class Pakaian extends AppCompatActivity {
                         startActivity(h);
                         return true;
                     case R.id.navigation2:
+                        Intent p = new Intent(getApplicationContext(), Pakaian.class);
+                        startActivity(p);
                         return true;
                     case R.id.navigation3:
                         Intent c = new Intent(getApplicationContext(), Lagu.class);
