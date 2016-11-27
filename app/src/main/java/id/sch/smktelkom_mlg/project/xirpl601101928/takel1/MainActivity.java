@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -17,14 +18,54 @@ import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Prov.Provinsi;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.rumh.Rumah;
 
 public class MainActivity extends AppCompatActivity {
+    public static final int REQUEST_CODE = 123;
+    ViewPager viewPager;
+    swipeAdapter adapter;
     //Mendefinisikan variabel
     private Toolbar toolbar;
     private NavigationView navigationView;
     private DrawerLayout drawerLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
+        adapter = new swipeAdapter(this);
+
+        viewPager.setAdapter(adapter);
+
+        findViewById(R.id.imageBaju).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivityForResult(new Intent(MainActivity.this, Pakaian.class), REQUEST_CODE);
+            }
+        });
+        findViewById(R.id.imageMakan).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivityForResult(new Intent(MainActivity.this, Makanan.class), REQUEST_CODE);
+            }
+        });
+        findViewById(R.id.imageLagu).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivityForResult(new Intent(MainActivity.this, Lagu.class), REQUEST_CODE);
+            }
+        });
+        findViewById(R.id.imageWisata).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivityForResult(new Intent(MainActivity.this, Wisata.class), REQUEST_CODE);
+            }
+        });
+        findViewById(R.id.imageRumah).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivityForResult(new Intent(MainActivity.this, Rumah.class), REQUEST_CODE);
+            }
+        });
         // Menginisiasi Toolbar dan mensetting sebagai actionbar
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
