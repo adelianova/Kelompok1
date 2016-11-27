@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigation1"
+            android:checked="false"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/navigation_view_item_1" />
+        <item
+            android:id="@+id/navigation8"
+            android:checked="false"
+            android:icon="@drawable/ic_bookmark_black_24dp"
+            android:title="@string/navigation_view_item_8" />
+        <item
+            android:id="@+id/navigation2"
+            android:checked="false"
+            android:icon="@drawable/ic_pregnant_woman_black_24dp"
+            android:title="@string/navigation_view_item_2" />
+        <item
+            android:id="@+id/navigation3"
+            android:checked="false"
+            android:icon="@drawable/ic_music_note_black_24dp"
+            android:title="@string/navigation_view_item_3" />
+        <item
+            android:id="@+id/navigation4"
+            android:checked="false"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="@string/navigation_view_item_4" />
+        <item
+            android:id="@+id/navigation5"
+            android:checked="false"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="@string/navigation_view_item_5" />
+        <item
+            android:id="@+id/navigation6"
+            android:checked="false"
+            android:icon="@drawable/ic_landscape_black_24dp"
+            android:title="@string/navigation_view_item_6" />
+
+    </group>
+    <item android:title="Lain-Lain">
+        <menu>
+            <item
+                android:id="@+id/navigation7"
+                android:checked="false"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="@string/navigation_view_item_7" />
+        </menu>
+    </item>
+</menu>

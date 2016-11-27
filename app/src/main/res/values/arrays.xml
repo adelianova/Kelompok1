@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="rumah_judul">
+        <item>Bangsal Kencono dan Rumah Joglo</item>
+        <item>Dalam Loka Samawa</item>
+        <item>Istana Sultan Buton</item>
+        <item>Mbaru Niang</item>
+        <item>Nowou Sesat</item>
+        <item>Rumah Adat Suku Mandar</item>
+        <item>Rumah Badui</item>
+        <item>Rumah Baileo</item>
+        <item>Rumah Baileo - Maluku</item>
+        <item>Rumah Baloy</item>
+        <item>Rumah Betang</item>
+        <item>Rumah Bolon</item>
+        <item>Rumah Bubungan Tinggi</item>
+        <item>Rumah Dulohupa</item>
+        <item>Rumah Gadang</item>
+        <item>Rumah Gapura Candi Bentar</item>
+        <item>Rumah Honai</item>
+        <item>Rumah Honai</item>
+        <item>Rumah Joglo</item>
+        <item>Rumah Joglo Situbondo</item>
+        <item>Rumah Kasepuhan Cirebon</item>
+        <item>Rumah Kebaya</item>
+        <item>Rumah Lamin</item>
+        <item>Rumah Limas</item>
+        <item>Rumah Limas</item>
+        <item>Rumah Panggung</item>
+        <item>Rumah Panjang</item>
+        <item>Rumah Pewaris</item>
+        <item>Rumah Rakyat</item>
+        <item>Rumah Selaso Jatuh Kembar</item>
+        <item>Rumah Selaso Jatuh Kembar</item>
+        <item>Rumah Tambi</item>
+        <item>Rumah Tongkonan</item>
+        <item>Rumoh Aceh, Rumah Krong Pade atau Berandang</item>
+
+    </string-array>
+    <string-array name="rumah_desk">
+        <item>Daerah Istimewa Yogyakarta (DIY)</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Lampung</item>
+        <item>Sulawesi Barat</item>
+        <item>Banten</item>
+        <item>Maluku Utara</item>
+        <item>Maluku</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Tengah</item>
+        <item>Sumatra Utara</item>
+        <item>Kalimantan Selatan</item>
+        <item>Gorontalo</item>
+        <item>Sumatra Barat</item>
+        <item>Bali</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Jawa Barat</item>
+        <item>DKI Jakarta</item>
+        <item>Kalimantan Timur</item>
+        <item>Bangka Belitung</item>
+        <item>Sumatra Selatan</item>
+        <item>Jambi</item>
+        <item>Kalimantan Barat</item>
+        <item>Sulawesi Utara</item>
+        <item>Bengkulu</item>
+        <item>Kepulauan Riau</item>
+        <item>Riau</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Selatan</item>
+        <item>Nanggroe Aceh Darussalam</item>
+    </string-array>
+    <string-array name="Rumah_detail">
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <array name="rumah_picture">
+        <item>@drawable/provinsia</item>
+        <item>@drawable/provinsib</item>
+        <item>@drawable/provinsic</item>
+        <item>@drawable/provinsid</item>
+        <item>@drawable/provinsie</item>
+        <item>@drawable/provinsif</item>
+        <item>@drawable/provinsig</item>
+        <item>@drawable/provinsih</item>
+        <item>@drawable/provinsii</item>
+        <item>@drawable/provinsij</item>
+        <item>@drawable/provinsik</item>
+        <item>@drawable/provinsil</item>
+        <item>@drawable/provinsim</item>
+        <item>@drawable/provinsin</item>
+        <item>@drawable/provinsio</item>
+        <item>@drawable/provinsip</item>
+        <item>@drawable/provinsiq</item>
+        <item>@drawable/provinsir</item>
+        <item>@drawable/provinsis</item>
+        <item>@drawable/provinsit</item>
+        <item>@drawable/provinsiu</item>
+        <item>@drawable/provinsiv</item>
+        <item>@drawable/provinsiw</item>
+        <item>@drawable/provinsix</item>
+        <item>@drawable/provinsiy</item>
+        <item>@drawable/provinsiz</item>
+        <item>@drawable/provinsiza</item>
+        <item>@drawable/provinsizb</item>
+        <item>@drawable/provinsizc</item>
+        <item>@drawable/provinsizd</item>
+        <item>@drawable/provinsize</item>
+        <item>@drawable/provinsizf</item>
+        <item>@drawable/provinsizg</item>
+        <item>@drawable/provinsizh</item>
+    </array>
+
+
+    <string-array name="makanan_judul">
+        <item>Ayam Betutu</item>
+        <item>Mi Bangka</item>
+        <item>Sate Bandeng</item>
+        <item>Pendap </item>
+        <item>Nasi Gudeg</item>
+
+        <item>Kerak Telor</item>
+        <item>Binte Biluhuta</item>
+        <item>Gulai Ikan Patin</item>
+        <item>Serabi</item>
+        <item>Lumpia</item>
+
+        <item>Rujak Cingur</item>
+        <item>Bubur Pedas Sambas</item>
+        <item>Soto Banjar</item>
+        <item>Kepiting Soka</item>
+        <item>Juhu Singkah</item>
+
+        <item>Ayam Cincane</item>
+        <item></item>
+        <item>Otak-otak</item>
+        <item>Seruit </item>
+        <item>Ikan Asar</item>
+
+        <item>Gohu Ikan</item>
+        <item>Mie Aceh</item>
+        <item>Ayam Taliwang</item>
+        <item>Catemak Jagung</item>
+        <item></item>
+
+        <item>Ikan Bakar Manokwari</item>
+        <item>Gulai Belacan</item>
+        <item></item>
+        <item>Sup Ikan Jantung Pisang</item>
+        <item>Lapa-Lapa</item>
+
+        <item>Tinutuan atau Bubur Manado</item>
+        <item>Bika Ambon</item>
+        <item>Rendang </item>
+        <item>Pempek</item>
+
+    </string-array>
+    <string-array name="makanan_desk">
+        <item>Bali</item>
+        <item>Bangka Belitung</item>
+        <item>Banten</item>
+        <item>Bengkulu</item>
+        <item>Daerah Istimewa Yogyakarta</item>
+
+        <item>DKI Jakarta</item>
+        <item>Gorontalo</item>
+        <item>Jambi</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+
+        <item>Jawa Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Selatan</item>
+        <item>Provinsi Kalimantan Utara</item>
+        <item>Kalimantan Tengah</item>
+
+        <item>Kalimantan Timur</item>
+        <item>Kalimantan Utara</item>
+        <item>Kepulauan Riau</item>
+        <item>Lampung</item>
+        <item>Maluku</item>
+
+        <item>Maluku Utara</item>
+        <item>Nangroe Aceh Darussalam</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Papua</item>
+
+        <item>Papua Barat</item>
+        <item>Riau</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+
+        <item>Sulawesi Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Sumatera Selatan</item>
+    </string-array>
+    <string-array name="makanan_detail">
+        <item>Salah satu makanan khas Bali adalah ayam betutu. Ayam betutu adalah lauk yang terbuat dari ayam yang utuh yang berisi bumbu, kemudian dipanggang dalam api sekam. Nikmat dan mantap!
+
+        </item>
+        <item>Mie atau Mi Bangka adalah salah satu dari sekian banyak ciri khas masyarakat pulau bangka, terbuat dari mie basah (kuning) biasa yang disiram dengan kuah berbumbu yang biasanya terbuah dari ikan, udang, cumi, atau kepiting. dan seringkali ditambahi dengan toge atau kecambah, mentimun atau timun, dan kerupuk, lezat bila dihidangkan waktu masih panas, dan ditambahi rasa pedas dari cabe.
+
+        </item>
+        <item>Sate Bandeng merupakan makanan khas Banten. Berbeda dengan ikan bandeng biasa, daging sate bandeng empuk dan tidak bertulang. Sate bandeng menggunakan gula coklat dan santan. Karena kekhasannya, sate bandeng menjadi oleh-oleh dari Banten.
+
+        </item>
+        <item>Makanan khas Bengkulu ini terbuat dari ikan dibumbi dengan bumbu yang beraneka ragam. Pendap ini memiliki rasa pedas dan gurih.
+
+        </item>
+        <item>Nasi Gudeg, makanan khas D.I. Yogyakarta yang terbuat dari nangka muda yang dimasak dengan santan. Gudeg dimakan dengan nasi dan disajikan dengan kuah santan kental (areh), ayam kampung, telur, tahu dan sambal goreng krecek. Mantap!
+
+        </item>
+        <item>Binte Biluhuta adalah makanan khas Gorontalo. Makanan ini biasa juga disebut dengan milu siram, karena terbuat dari milu (bahasa setempat berarti jajung). Makanan ini terbuat dari jagung, udang, kelapa setengah tua, belimbing sayur, daun bawang, daun kemangi, bawang merah, jeruk nipis.
+
+        </item>
+        <item>Gulai Ikan Patin adalah masakan yang populer di masyarakat Jambi.Gulai ini dimasak dengan menggunakan tempoyak yaitu daging buah durian yang telah difermentasi. Tetapi ada sebagian orang yang memilih untuk mengganti tempoyak dengan santan kelapa untuk menghindari bau dan rasa tempoyak yang cukup menyengat.
+        </item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <array name="makanan_picture">
+        <item>@drawable/makanana</item>
+        <item>@drawable/makananb</item>
+        <item>@drawable/makananc</item>
+        <item>@drawable/makanand</item>
+        <item>@drawable/makanane</item>
+        <item>@drawable/makananf</item>
+        <item>@drawable/makanang</item>
+        <item>@drawable/makananh</item>
+        <item>@drawable/makanani</item>
+        <item>@drawable/makananj</item>
+        <item>@drawable/makanank</item>
+        <item>@drawable/makananl</item>
+        <item>@drawable/makananm</item>
+        <item>@drawable/makanann</item>
+        <item>@drawable/makanano</item>
+        <item>@drawable/makananp</item>
+        <item>@drawable/makananp</item>
+        <item>@drawable/makananr</item>
+        <item>@drawable/makanans</item>
+        <item>@drawable/makanant</item>
+        <item>@drawable/makananu</item>
+        <item>@drawable/makananv</item>
+        <item>@drawable/makananw</item>
+        <item>@drawable/makananx</item>
+        <item>@drawable/makananx</item>
+        <item>@drawable/makananz</item>
+        <item>@drawable/makananza</item>
+        <item>@drawable/makananza</item>
+        <item>@drawable/makananzc</item>
+        <item>@drawable/makananzd</item>
+        <item>@drawable/makananze</item>
+        <item>@drawable/makananzf</item>
+        <item>@drawable/makananzg</item>
+        <item>@drawable/makananzh</item>
+    </array>
+
+
+    <string-array name="places">
+        <item>Bali</item>
+        <item>Bangka Belitung</item>
+        <item>Banten</item>
+        <item>Bengkulu</item>
+        <item>Daerah Istimewa Yogyakarta</item>
+
+        <item>DKI Jakarta</item>
+        <item>Gorontalo</item>
+        <item>Jambi</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+
+        <item>Jawa Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Selatan</item>
+        <item>Provinsi Kalimantan Utara</item>
+        <item>Kalimantan Tengah</item>
+
+        <item>Kalimantan Timur</item>
+        <item>Kalimantan Utara</item>
+        <item>Kepulauan Riau</item>
+        <item>Lampung</item>
+        <item>Maluku</item>
+
+        <item>Maluku Utara</item>
+        <item>Nangroe Aceh Darussalam</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Papua</item>
+
+        <item>Papua Barat</item>
+        <item>Riau</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+
+        <item>Sulawesi Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Sumatera Selatan</item>
+    </string-array>
+    <string-array name="place_desc">
+        <item>Bali adalah sebuah provinsi dari Republik Indonesia yang terletak diantara pulau Jawa dan pulau Lombok, pulau Bali juga terkenal dengan sebutan PULAU DEWATA, PULAU SERIBU PURA dan BALI DWIPA.
+        </item>
+        <item>Provinsi Kepulauan Bangka Belitung (disingkat Babel) adalah sebuah provinsi di Indonesia yang terdiri dari dua pulau utama yaitu Pulau Bangka dan Pulau Belitung serta pulau-pulau kecil lainnya.</item>
+        <item>Banten adalah sebuah provinsi di Tatar Pasundan, serta wilayah paling barat di Pulau Jawa, Indonesia.</item>
+        <item>Bengkulu adalah sebuah provinsi di Indonesia. Ibu kotanya berada di Kota Bengkulu. Provinsi ini terletak di bagian barat daya Pulau Sumatra.</item>
+        <item>Daerah Istimewa Yogyakarta atau biasa disingkat dengan DIY adalah salah satu daerah otonom setingkat provinsi yang ada di Indonesia.</item>
+        <item>Daerah Khusus Ibukota Jakarta (DKI Jakarta) adalah ibu kota negara Republik Indonesia.</item>
+        <item>Gorontalo adalah sebuah provinsi di Indonesia. Sebelumnya, semenanjung Gorontalo (Hulontalo) merupakan wilayah Kabupaten Gorontalo dan Kota Madya Gorontalo di Sulawesi Utara.</item>
+        <item>Jambi (Jawi : جامبي) adalah sebuah Provinsi Indonesia yang terletak di pesisir timur di bagian tengah Pulau Sumatera. </item>
+        <item>Jawa Barat adalah sebuah provinsi di Indonesia. Ibu kotanya berada di Kota Bandung.</item>
+        <item>Jawa Tengah adalah sebuah provinsi Indonesia yang terletak di bagian tengah Pulau Jawa. Ibu kotanya adalah Semarang.</item>
+        <item>Jawa Timur (bahasa Jawa: Jåwå Wétan) adalah sebuah provinsi di bagian timur Pulau Jawa, Indonesia. Ibu kotanya terletak di Surabaya.</item>
+        <item>Kalimantan Barat adalah provinsi di Indonesia yang terletak di pulau Kalimantan dan beribukotakan Pontianak.</item>
+        <item>Kalimantan Selatan adalah salah satu provinsi di Indonesia yang terletak di pulau Kalimantan. Ibu kotanya adalah Banjarmasin.</item>
+        <item>Kalimantan Utara adalah sebuah provinsi di Indonesia yang terletak di bagian utara Pulau Kalimantan. </item>
+        <item>Kalimantan Tengah adalah salah satu sebuah provinsi di Indonesia yang terletak di pulau Kalimantan. Ibukotanya adalah Kota Palangka Raya.</item>
+        <item>Kalimantan Timur atau biasa disingkat Kaltim adalah sebuah provinsi Indonesia di Pulau Kalimantan bagian ujung timur yang berbatasan dengan Malaysia.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="place_details">
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="place_locations">
+        <item>8 Rue Scribe, 75009 Paris, France</item>
+        <item>Piazza del Capitolo - 50122 Florence</item>
+        <item>New York City</item>
+        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
+        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
+        <item>Cape Town, South Africa</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <array name="places_picture">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+
+        <item>@drawable/f</item>
+        <item>@drawable/g</item>
+        <item>@drawable/h</item>
+        <item>@drawable/i</item>
+        <item>@drawable/j</item>
+
+        <item>@drawable/k</item>
+        <item>@drawable/l</item>
+        <item>@drawable/m</item>
+        <item>@drawable/kalimantanutara</item>
+        <item>@drawable/n</item>
+
+        <item>@drawable/o</item>
+        <item>@drawable/p</item>
+        <item>@drawable/q</item>
+        <item>@drawable/r</item>
+        <item>@drawable/s</item>
+
+        <item>@drawable/malukuutara</item>
+        <item>@drawable/t</item>
+        <item>@drawable/u</item>
+        <item>@drawable/v</item>
+        <item>@drawable/w</item>
+        <item>@drawable/x</item>
+
+        <item>@drawable/y</item>
+
+        <item>@drawable/z</item>
+        <item>@drawable/za</item>
+        <item>@drawable/zb</item>
+        <item>@drawable/sulawesiutara</item>
+        <item>@drawable/zc</item>
+        <item>@drawable/zd</item>
+
+        <item>@drawable/ze</item>
+    </array>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/a" />
+
+    <TextView
+        android:id="@+id/textViewJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:ellipsize="end"
+        android:focusableInTouchMode="false"
+        android:maxLines="1"
+        android:phoneNumber="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textIsSelectable="@bool/abc_config_allowActionMenuItemTextWithIcon"
+        android:textStyle="bold|italic"
+        tools:text="Judul" />
+
+    <TextView
+        android:id="@+id/textViewDescripsi"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewJudul"
+        android:layout_alignStart="@+id/textViewJudul"
+        android:layout_below="@+id/textViewJudul"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="Deskripsi" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewDescripsi"
+        android:layout_alignStart="@+id/textViewDescripsi"
+        android:layout_below="@+id/imageView"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="_________________________________________________________________________________________________________________________________________________________________________________" />
+
+</RelativeLayout>
