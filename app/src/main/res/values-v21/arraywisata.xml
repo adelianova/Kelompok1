@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wisata">
+        <item>Danau Maninjau</item>
+        <item>Wisata Alam Ombak Bono</item>
+        <item>Air Terjun Bidadari</item>
+        <item>Gunung Sibayak</item>
+        <item>Taman Nasional Bukit Barisan</item>
+        <item>Pakaian Adat Pakpak</item>
+        <item>Pakaian Adat Melayu</item>
+        <item>Pakaian Adat Karo</item>
+        <item>Wisata Alam Ombak Bono</item>
+        <item>Baju Pengantin Riau</item>
+        <item>Banten</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>DI Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Sumatera Selatan</item>
+        <item>Bangka Belitung</item>
+        <item>Lampung</item>
+        <item>Banten</item>
+        <item>DKI Jakarta</item>
+    </string-array>
+    <string-array name="pr_wisata">
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Sumatera Selatan</item>
+        <item>Sumatera Utara</item>
+        <item>Lampung</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Kepalauan Riau</item>
+        <item>Jambi</item>
+        <item>Bengkulu</item>
+        <item>Sumatera Selatan</item>
+        <item>Bangka Belitung</item>
+        <item>Lampung</item>
+        <item>Banten</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>DI Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Sumatera Selatan</item>
+        <item>Bangka Belitung</item>
+        <item>Lampung</item>
+        <item>Banten</item>
+        <item>DKI Jakarta</item>
+    </string-array>
+    <string-array name="dt_wisata">
+        <item>
+            Danau yang cukup luas dengan air tenang kehijauan adalah pesona
+            khas Danau Maninjau di Sumatera Barat. Selain Danau Maninjau.
+            Di provinsi ini juga memiliki Danau Singkarak yang juga cukup terkenal.
+            Jika ingin melihat keindahan alam Sumatera Barat dilengkapi dengan
+            kebudayaan Minang yang sangat kental, maka berkunjung lah ke Danau Maninjau.
+        </item>
+        <item>Riau dikenal memiliki wisata alam yang mendunia, yakni wisata alam ombak bono.
+        Bono merupakan fenomena alam dimana tempat pertemuan antara arus air tawar dan air laut
+        menghasilan satu momentum gelombang yang terjadi di air tawar. Tempat ini berada di
+        Pelalawan, Riau dan merupakan salah satu objek wisata alam yang banyak dikunjungi turis
+        peselancar dari luar negara.
+        </item>
+        <item>
+          Sumatera Selatan juga memiliki banyak wisata alam yang bisa dikunjungi. Wisata air terjun
+            bisa ditemukan di beberapa tempat di propinsi ini, diantaranya adalah air terjun bidadari,
+            air terjun temam, air terjun bedegung, air terjun lematang dan sebagainya. Tempat wisata
+            sejarah juga banyak di propinsi ini seperti Jembatan Ampera yang cukup terkenal.
+        </item>
+        <item>
+        Wisata gunung yang cukup indah bisa Anda temukan di tanah karo Sumatera Utara. Gunung Sibayak
+            merupakan lokasi pertanian yang subur dengan pemandangan alam yang sangat indah. Kesegaran
+            udara di kawasan ini sangat terasa, berbagai wisata disediakan di tempat ini seperti wisata
+            berkuda, wisata sejarah dan sebagainya.
+        </item>
+        <item>
+            Di Lampung cukup banyak ditemukan tempat wisata alam dalam bentuk taman nasional. Salah satunya adalah Taman Nasional Bukit Barisan yang cukup terkenal. Di sini merupakan cagar alam tempat melindungi spesies flora dan fauna.
+
+            Beberapa taman nasional lain yang ada di Lampung diantaranya adalah Taman Purbakala Pugung Raharjo, Taman Nasional Way Kambas dan Taman Wisata Lembah Hijau.
+        </item>
+        <item>
+                Sub suku Pakpak mendiami daerah sekitar Kabupaten Pakpak Barat dan Kabupaten Dairi. 
+            Sub suku ini memiliki pakaian adat yang berbagan kain oles, kain tenun khas Pakpak. 
+            Penggunaan kain ini dilengkapi dengan aksesoris mahal berupa kalung emas bertahtakan permata, 
+            baik untuk pria (borgot) maupun untuk wanita (cimata). 
+        </item>
+        <item>
+                Suku Melayu di Sumatera Utara mendiami daerah-daerah di sekitar Kota Tebing Tinggi, Binjai, Medan, 
+            Kabupaten Langkat, Deli Serdang, Serdang Bedagai, hingga Kabupaten Batu Bara. Jika dilihat sekilas, 
+            pakaian adat Melayu di Sumatera Utara memiliki ciri khas yang sama dengan pakaian adat Melayu Riau, 
+            yakni pengenaan baju kurung dan sarung songket yang dililitkan di pinggang
+        </item>
+        <item>
+                Secara tekstur dan pembuatan, pakaian adat Sumatera Utara dari suku Batak Karo serupa dengan 
+            pakaian adat Batak pada umumnya. Kain yang dibuat dari pintalan kapas bernama Uis Gara dipakai sebagai penutup
+            tubuh dalam berbagai aktivitas keseharian. Kain Uis Gara sendiri berarti kain merah. Kain ini dibuat dari tenunan 
+            benang merah dan dipadukan dengan warna hitam atau putih serta motif menggunakan benang emas atau perak.
+        </item>
+                    
+        <item>
+                Pakaian ini merupakan lambang kebesaran bagi para wanita yang telah menikah. 
+            Pakaian tersebut merupakan simbol dari pentingnya peran seorang ibu dalam sebuah keluarga.</item>
+        <item>
+            Baju pengantin laki-laki adat Melayu bernama Baju Kurung Cekak Musang (Baju Kurung Teluk Belanga). 
+            Baju adat Riau ini dilengkapi dengan kain sarung yang memiliki warna dan motif sesuai baju kurungnya. 
+            Beberapa ornamen lain seperti mahkota di kepala, sebai berwarna kuning di bahu bagian kiri, sepatu runcing, 
+            rantai panjang di leher, canggai di kelingking, dan keris berkepala burung serindit diselipkan di pinggang kiri.
+
+        </item>
+    </string-array>
+    <array name="gb_wisata">
+        <item>@drawable/wa</item>
+        <item>@drawable/wb</item>
+        <item>@drawable/wc</item>
+        <item>@drawable/wd</item>
+        <item>@drawable/we</item>
+        <item>@drawable/wf</item>
+        <item>@drawable/wg</item>
+        <item>@drawable/wh</item>
+        <item>@drawable/wi</item>
+    </array>
+</resources>

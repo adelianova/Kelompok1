@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="id.sch.smktelkom_mlg.project.xirpl601101928.takel1">
+          package="id.sch.smktelkom_mlg.project.xirpl601101928.takel1">
 
     <application
         android:allowBackup="true"
@@ -10,21 +10,25 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Lagu" />
-        <activity android:name=".Makann.Makanan" />
-        <activity android:name=".Pakaian" />
-        <activity android:name=".Prov.Provinsi" />
-        <activity android:name=".rumh.Rumah" />
-        <activity android:name=".Tentangkami" />
-        <activity android:name=".Wisata" />
-        <activity android:name=".rumh.DetailActivity" />
-        <activity android:name=".Makann.DetailActivity" />
-
+        <activity android:name=".Lagu"/>
+        <activity android:name=".Makann.Makanan"/>
+        <activity android:name=".Pakaian"/>
+        <activity android:name=".Prov.Provinsi"/>
+        <activity android:name=".rumh.Rumah"/>
+        <activity android:name=".Tentangkami"/>
+        <activity android:name=".Wisata.Wisata"/>
+        <activity android:name=".rumh.DetailActivity"/>
+        <activity android:name=".Makann.DetailActivity"/>
+        <activity
+            android:name=".Wisata.WisataActivity"
+            android:label="@string/title_activity_wisata"
+            android:theme="@style/AppTheme">
+        </activity>
     </application>
 
 </manifest>
