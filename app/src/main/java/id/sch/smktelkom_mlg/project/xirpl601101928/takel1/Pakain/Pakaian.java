@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Makann;
+package id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Pakain;
 
 import android.content.ContentResolver;
 import android.content.Intent;
@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Lagu;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.MainActivity;
-import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Pakain.Pakaian;
+import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Makann.Makanan;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Prov.Provinsi;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.R;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Tentangkami;
@@ -33,14 +33,14 @@ import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.rumh.Rumah;
 /**
  * Created by Mochammad Al_97 on 11/26/2016.
  */
-public class Makanan extends AppCompatActivity implements MakananAdapter.IHotelAdapter {
+public class Pakaian extends AppCompatActivity implements PakaianAdapter.IHotelAdapter {
     public static final String HOTEL = "hotel";
     public static final int REQUEST_CODE_ADD = 88;
     public static final int REQUEST_CODE_EDIT = 99;
-    ArrayList<MakananModel> mList = new ArrayList<>();
-    MakananAdapter mAdapter;
+    ArrayList<PakaianModel> mList = new ArrayList<>();
+    PakaianAdapter mAdapter;
     int itemPos;
-    ArrayList<MakananModel> mListALL = new ArrayList<>();
+    ArrayList<PakaianModel> mListALL = new ArrayList<>();
     boolean isfiltered;
     ArrayList<Integer> mListMapFilter = new ArrayList<>();
     String mQuery;
@@ -53,8 +53,8 @@ public class Makanan extends AppCompatActivity implements MakananAdapter.IHotelA
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Makanan Khas Daerah");
-        setContentView(R.layout.makanan);
+        setTitle("Pakaian Adat");
+        setContentView(R.layout.pakaian);
         // Menginisiasi Toolbar dan mensetting sebagai actionbar
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -75,26 +75,28 @@ public class Makanan extends AppCompatActivity implements MakananAdapter.IHotelA
                     // pilihan menu item navigasi akan menampilkan pesan toast klik kalian bisa menggantinya
                     //dengan intent activity
                     case R.id.navigation1:
-                        Intent a = new Intent(getApplicationContext(), MainActivity.class);
-                        startActivity(a);
+                        Intent b = new Intent(getApplicationContext(), MainActivity.class);
+                        startActivity(b);
                         return true;
                     case R.id.navigation8:
                         Intent h = new Intent(getApplicationContext(), Provinsi.class);
                         startActivity(h);
                         return true;
                     case R.id.navigation2:
-                        Intent b = new Intent(getApplicationContext(), Pakaian.class);
-                        startActivity(b);
+                        Intent p = new Intent(getApplicationContext(), Pakaian.class);
+                        startActivity(p);
                         return true;
                     case R.id.navigation3:
-                        Intent e = new Intent(getApplicationContext(), Lagu.class);
-                        startActivity(e);
+                        Intent c = new Intent(getApplicationContext(), Lagu.class);
+                        startActivity(c);
                         return true;
                     case R.id.navigation4:
                         Intent d = new Intent(getApplicationContext(), Rumah.class);
                         startActivity(d);
                         return true;
                     case R.id.navigation5:
+                        Intent e = new Intent(getApplicationContext(), Makanan.class);
+                        startActivity(e);
                         return true;
                     case R.id.navigation6:
                         Intent f = new Intent(getApplicationContext(), Wisata.class);
@@ -130,11 +132,10 @@ public class Makanan extends AppCompatActivity implements MakananAdapter.IHotelA
         //memanggil synstate
         actionBarDrawerToggle.syncState();
 
-
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new MakananAdapter(this, mList);
+        mAdapter = new PakaianAdapter(this, mList);
         recyclerView.setAdapter(mAdapter);
 
         fillData();
@@ -147,12 +148,12 @@ public class Makanan extends AppCompatActivity implements MakananAdapter.IHotelA
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_CODE_ADD && resultCode == RESULT_OK) {
-            MakananModel hotel = (MakananModel) data.getSerializableExtra(HOTEL);
+            PakaianModel hotel = (PakaianModel) data.getSerializableExtra(HOTEL);
             mList.add(hotel);
             mAdapter.notifyDataSetChanged();
             //mAdapter.notifyDataSetChanged();
         } else if (requestCode == REQUEST_CODE_EDIT && resultCode == RESULT_OK) {
-            MakananModel hotel = (MakananModel) data.getSerializableExtra(HOTEL);
+            PakaianModel hotel = (PakaianModel) data.getSerializableExtra(HOTEL);
             mList.remove(itemPos);
             if (isfiltered) mListALL.remove(mListMapFilter.get(itemPos).intValue());
             mList.add(itemPos, hotel);
@@ -164,10 +165,10 @@ public class Makanan extends AppCompatActivity implements MakananAdapter.IHotelA
 
     private void fillData() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.makanan_judul);
-        String[] arDescripsi = resources.getStringArray(R.array.makanan_desk);
-        String[] arDetail = resources.getStringArray(R.array.makanan_detail);
-        TypedArray a = resources.obtainTypedArray(R.array.makanan_picture);
+        String[] arJudul = resources.getStringArray(R.array.pakaian_judul);
+        String[] arDescripsi = resources.getStringArray(R.array.pakaian_desk);
+        String[] arDetail = resources.getStringArray(R.array.pakaian_detail);
+        TypedArray a = resources.obtainTypedArray(R.array.pakaian_picture);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             int id = a.getResourceId(i, 0);
@@ -179,7 +180,7 @@ public class Makanan extends AppCompatActivity implements MakananAdapter.IHotelA
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new MakananModel(arJudul[i], arDescripsi[i],
+            mList.add(new PakaianModel(arJudul[i], arDescripsi[i],
                     arFoto[i], arDetail[i]));
         }
         mAdapter.notifyDataSetChanged();
@@ -225,7 +226,7 @@ public class Makanan extends AppCompatActivity implements MakananAdapter.IHotelA
         } else {
             mListMapFilter.clear();
             for (int i = 0; i < mListALL.size(); i++) {
-                MakananModel hotel = mListALL.get(i);
+                PakaianModel hotel = mListALL.get(i);
                 if (hotel.judul.toLowerCase().contains(mQuery) ||
                         hotel.descripsi.toLowerCase().contains(mQuery)) {
                     mList.add(hotel);
@@ -237,17 +238,18 @@ public class Makanan extends AppCompatActivity implements MakananAdapter.IHotelA
     }
 
     @Override
+    public void doClick(int pos) {
+        Intent intent = new Intent(this, id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Pakain.DetailActivity.class);
+        intent.putExtra(HOTEL, mList.get(pos));
+        startActivity(intent);
+    }
+
+    @Override
     public void onBackPressed() {
         Intent a = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(a);
 
     }
 
-    @Override
-    public void doClick(int pos) {
-        Intent intent = new Intent(this, DetailActivity.class);
-        intent.putExtra(HOTEL, mList.get(pos));
-        startActivity(intent);
-    }
 
 }

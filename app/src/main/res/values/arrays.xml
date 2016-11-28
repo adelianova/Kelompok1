@@ -658,4 +658,108 @@
         <item>@drawable/wlampung</item>
         <item>@drawable/waceh</item>
     </array>
+
+    //Array pakaian
+    <string-array name="pakaian_judul">
+        <item>Pakaian Ulee Balang</item>
+        <item>Pakaian Adat Batak Toba</item>
+        <item>Pakaian Adat Mandailing</item>
+        <item>Pakaian Adat Nias</item>
+        <item>Pakaian Adat Simalungun</item>
+        <item>Pakaian Adat Pakpak</item>
+        <item>Pakaian Adat Melayu</item>
+        <item>Pakaian Adat Karo</item>
+        <item>Pakaian Limpapeh Rumah Nan Gadang (pakaian Bundo Kanduang)</item>
+        <item>Baju Pengantin Riau</item>
+    </string-array>
+    <string-array name="pakaian_desk">
+        <item>Nangroe Aceh Darussalam</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+    </string-array>
+    <string-array name="pakaian_detail">
+        <item>
+            Pakaian adat Aceh bernama pakaian Ulee Balang.
+            Pakaian ini untuk pria disebut baju Linto Baro,
+            sedangkan pakaian untuk wanita disebut baju Daro Baro.
+            Dahulunya, pakaian ini hanya digunakan oleh para sultan dan pembesar kerajaan,
+            namun sekarang keduanya lebih sering dipakai oleh para pengantin.
+        </item>
+        <item>Suku Batak sendiri sebetulnya terbagi-bagi menjadi beberapa sub-suku. Salah satunya adalah sub-suku Batak Toba.
+            Sesuai namanya, suku ini adalah suku batak yang mendiami daerah sekitar danau Toba, danau terluas di Asia Tenggara.
+            Suku Batak Toba memiliki pakaian adat sehari-hari yang terbuat dari kain tenun khas Batak, yakni kain ulos.
+            Secara umum, kain ulos inilah yang menjadi identitas dan ciri utama pakaian adat Sumatera Utara di kancah nasional.
+                    Kain ulos merupakan kain yang ditenun secara manual dari bahan benang sutra berwarna hitam,
+            merah, dan putih dengan dihiasi motif berupa benang emas atau perak.
+            Berdasarkan coraknya, kain ulos ada beragam jenisnya, antara lain yaitu Ulos Antakantak, Ulos Bintang Maratur,
+            Ulos Bolean, Ulos Mangiring, Ulos Padang Ursa, Ulos Pinan Lobu-lobu, Ulos Pinuncaan, dan masih banyak lagi.
+            Masing-masing motif memiliki filosofi dan kegunaan yang berbeda-beda.</item>
+        <item>
+            Batak Mandailing adalah sub suku batak yang mendiami daerah di sekitar Kabupaten Tapanulis Selatan,
+            Kabupaten Mandailing Natal, serta Kabupaten Padang Lawas. Sub suku Batak ini memiliki pakaian adat yang nyaris
+            serupa dengan Batak Toba, yakni berupa perpaduan kain ulos dengan beragam aksesoris lainnya
+        </item>
+        <item>
+                Pulau Nias adalah pulau yang letaknya berada terpisah di arah Barat pulau Sumatera.
+            Secara sekilas, kebudayaan dari penduduk asli Pulau Nias memiliki beberapa perbedaan dengan suku Batak.
+            Salah satu yang bisa dilihat misalnya perbedaan pada Pakaian Adat Tradisionalnya.
+            Pakaian adat Sumatera Utara dari suku Nias untuk laki-laki disebut Baru Oholu, sementara untuk
+            perempuannya disebut Õröba Si’öli. Pakaian ini memiliki warna dominan yakni emas atau kuning.
+        </item>
+        <item>
+            Sama seperti sub suku Batak lainnya, suku Batak Simalungun yang tinggal di sekitar Kabupaten Simalungun
+            juga mengenakan pakaian adat berbahan kain ulos, akan tetapi mereka menyebutnya dengan nama kain Hiou.
+            Pengenaan pakaian adat ini akan dilengkapi dengan beragam aksesoris, misalnya penutup kepala dan kain samping. P
+            enutup kepala yang dikenakan laki-laki disebut Gotong, untuk perempuan disebut Bulang,
+            sementara kain sampingnya disebut Suri-suri.
+        </item>
+        <item>
+                Sub suku Pakpak mendiami daerah sekitar Kabupaten Pakpak Barat dan Kabupaten Dairi.
+            Sub suku ini memiliki pakaian adat yang berbagan kain oles, kain tenun khas Pakpak.
+            Penggunaan kain ini dilengkapi dengan aksesoris mahal berupa kalung emas bertahtakan permata,
+            baik untuk pria (borgot) maupun untuk wanita (cimata).
+        </item>
+        <item>
+                Suku Melayu di Sumatera Utara mendiami daerah-daerah di sekitar Kota Tebing Tinggi, Binjai, Medan,
+            Kabupaten Langkat, Deli Serdang, Serdang Bedagai, hingga Kabupaten Batu Bara. Jika dilihat sekilas,
+            pakaian adat Melayu di Sumatera Utara memiliki ciri khas yang sama dengan pakaian adat Melayu Riau,
+            yakni pengenaan baju kurung dan sarung songket yang dililitkan di pinggang
+        </item>
+        <item>
+                Secara tekstur dan pembuatan, pakaian adat Sumatera Utara dari suku Batak Karo serupa dengan
+            pakaian adat Batak pada umumnya. Kain yang dibuat dari pintalan kapas bernama Uis Gara dipakai sebagai penutup
+            tubuh dalam berbagai aktivitas keseharian. Kain Uis Gara sendiri berarti kain merah. Kain ini dibuat dari tenunan
+            benang merah dan dipadukan dengan warna hitam atau putih serta motif menggunakan benang emas atau perak.
+        </item>
+
+        <item>
+                Pakaian ini merupakan lambang kebesaran bagi para wanita yang telah menikah.
+            Pakaian tersebut merupakan simbol dari pentingnya peran seorang ibu dalam sebuah keluarga.</item>
+        <item>
+            Baju pengantin laki-laki adat Melayu bernama Baju Kurung Cekak Musang (Baju Kurung Teluk Belanga).
+            Baju adat Riau ini dilengkapi dengan kain sarung yang memiliki warna dan motif sesuai baju kurungnya.
+            Beberapa ornamen lain seperti mahkota di kepala, sebai berwarna kuning di bahu bagian kiri, sepatu runcing,
+            rantai panjang di leher, canggai di kelingking, dan keris berkepala burung serindit diselipkan di pinggang kiri.
+
+        </item>
+    </string-array>
+    <array name="pakaian_picture">
+        <item>@drawable/b1</item>
+        <item>@drawable/b2</item>
+        <item>@drawable/b3</item>
+        <item>@drawable/b4</item>
+        <item>@drawable/b5</item>
+        <item>@drawable/b6</item>
+        <item>@drawable/b7</item>
+        <item>@drawable/b8</item>
+        <item>@drawable/b9</item>
+        <item>@drawable/b10</item>
+    </array>
 </resources>

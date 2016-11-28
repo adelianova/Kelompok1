@@ -17,7 +17,7 @@
         </activity>
         <activity android:name=".Lagu"/>
         <activity android:name=".Makann.Makanan"/>
-        <activity android:name=".Pakaian"/>
+        <activity android:name=".Pakain.Pakaian" />
         <activity android:name=".Prov.Provinsi"/>
         <activity android:name=".rumh.Rumah"/>
         <activity android:name=".Tentangkami"/>
@@ -25,6 +25,7 @@
         <activity android:name=".rumh.DetailActivity"/>
         <activity android:name=".Makann.DetailActivity"/>
         <activity android:name=".Wisata.DetailActivity"/>
+        <activity android:name=".Pakain.DetailActivity" />
     </application>
 
 </manifest>

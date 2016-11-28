@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Lagu;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.MainActivity;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Makann.Makanan;
-import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Pakaian;
+import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Pakain.Pakaian;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Prov.Provinsi;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.R;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Tentangkami;
