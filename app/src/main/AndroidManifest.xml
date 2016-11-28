@@ -24,11 +24,7 @@
         <activity android:name=".Wisata.Wisata"/>
         <activity android:name=".rumh.DetailActivity"/>
         <activity android:name=".Makann.DetailActivity"/>
-        <activity
-            android:name=".Wisata.WisataActivity"
-            android:label="@string/title_activity_wisata"
-            android:theme="@style/AppTheme">
-        </activity>
+        <activity android:name=".Wisata.DetailActivity"/>
     </application>
 
 </manifest>

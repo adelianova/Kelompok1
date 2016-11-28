@@ -1,15 +1,25 @@
 package id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Wisata;
 
+import android.content.ContentResolver;
 import android.content.Intent;
+import android.content.res.Resources;
+import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Lagu;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.MainActivity;
@@ -23,7 +33,17 @@ import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.rumh.Rumah;
 /**
  * Created by Mochammad Al_97 on 11/26/2016.
  */
-public class Wisata extends AppCompatActivity {
+public class Wisata extends AppCompatActivity implements WisataAdapter.IHotelAdapter {
+    public static final String HOTEL = "hotel";
+    public static final int REQUEST_CODE_ADD = 88;
+    public static final int REQUEST_CODE_EDIT = 99;
+    ArrayList<WisataModel> mList = new ArrayList<>();
+    WisataAdapter mAdapter;
+    int itemPos;
+    ArrayList<WisataModel> mListALL = new ArrayList<>();
+    boolean isfiltered;
+    ArrayList<Integer> mListMapFilter = new ArrayList<>();
+    String mQuery;
     //Mendefinisikan variabel
     private Toolbar toolbar;
     private NavigationView navigationView;
@@ -32,6 +52,7 @@ public class Wisata extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Wisata Daerah");
         setContentView(R.layout.wisata);
         // Menginisiasi Toolbar dan mensetting sebagai actionbar
         toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -107,6 +128,109 @@ public class Wisata extends AppCompatActivity {
         drawerLayout.setDrawerListener(actionBarDrawerToggle);
         //memanggil synstate
         actionBarDrawerToggle.syncState();
+
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
+        mAdapter = new WisataAdapter(this, mList);
+        recyclerView.setAdapter(mAdapter);
+
+        fillData();
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+    }
+
+    @Override
+    public void doClick(int pos) {
+        Intent intent = new Intent(this, id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Wisata.DetailActivity.class);
+        intent.putExtra(HOTEL, mList.get(pos));
+        startActivity(intent);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_CODE_ADD && resultCode == RESULT_OK) {
+            WisataModel hotel = (WisataModel) data.getSerializableExtra(HOTEL);
+            mList.add(hotel);
+            mAdapter.notifyDataSetChanged();
+            //mAdapter.notifyDataSetChanged();
+        } else if (requestCode == REQUEST_CODE_EDIT && resultCode == RESULT_OK) {
+            WisataModel hotel = (WisataModel) data.getSerializableExtra(HOTEL);
+            mList.remove(itemPos);
+            if (isfiltered) mListALL.remove(mListMapFilter.get(itemPos).intValue());
+            mList.add(itemPos, hotel);
+            if (isfiltered) mListALL.add(mListMapFilter.get(itemPos), hotel);
+            mAdapter.notifyDataSetChanged();
+        }
+    }
+
+
+    private void fillData() {
+        Resources resources = getResources();
+        String[] arJudul = resources.getStringArray(R.array.wisata);
+        String[] arDescripsi = resources.getStringArray(R.array.pr_wisata);
+        String[] arDetail = resources.getStringArray(R.array.dt_wisata);
+        TypedArray a = resources.obtainTypedArray(R.array.gb_wisata);
+        String[] arFoto = new String[a.length()];
+        for (int i = 0; i < arFoto.length; i++) {
+            int id = a.getResourceId(i, 0);
+            arFoto[i] = ContentResolver.SCHEME_ANDROID_RESOURCE + "://" + resources.getResourcePackageName(id) + '/' + resources.getResourceTypeName(id) + '/' + resources.getResourceEntryName(id);
+        }
+        a.recycle();
+
+        for (int i = 0; i < arJudul.length; i++) {
+            mList.add(new WisataModel(arJudul[i], arDescripsi[i], arFoto[i], arDetail[i]));
+        }
+        mAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                mQuery = newText.toLowerCase();
+                doFilter(mQuery);
+                return true;
+            }
+        });
+        return true;
+    }
+
+    private void doFilter(String mQuery) {
+        if (!isfiltered) {
+            mListALL.clear();
+            mListALL.addAll(mList);
+            isfiltered = true;
+        }
+
+        mList.clear();
+        if (mQuery == null || mQuery.isEmpty()) {
+            mList.addAll(mListALL);
+            isfiltered = false;
+        } else {
+            mListMapFilter.clear();
+            for (int i = 0; i < mListALL.size(); i++) {
+                WisataModel hotel = mListALL.get(i);
+                if (hotel.judul.toLowerCase().contains(mQuery) || hotel.descripsi.toLowerCase().contains(mQuery)) {
+                    mList.add(hotel);
+                    mListMapFilter.add(i);
+                }
+            }
+        }
+        mAdapter.notifyDataSetChanged();
     }
 
     @Override

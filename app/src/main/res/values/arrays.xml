@@ -599,4 +599,63 @@
 
         <item>@drawable/ze</item>
     </array>
+    <string-array name="wisata">
+        <item>Danau Maninjau</item>
+        <item>Wisata Alam Ombak Bono</item>
+        <item>Air Terjun Bidadari</item>
+        <item>Gunung Sibayak</item>
+        <item>Taman Nasional Bukit Barisan</item>
+        <item>Pantai Batu Batu Bertupang</item>
+    </string-array>
+    <string-array name="pr_wisata">
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Sumatera Selatan</item>
+        <item>Sumatera Utara</item>
+        <item>Lampung</item>
+        <item>Aceh</item>
+    </string-array>
+    <string-array name="dt_wisata">
+        <item>
+            Danau yang cukup luas dengan air tenang kehijauan adalah pesona
+            khas Danau Maninjau di Sumatera Barat. Selain Danau Maninjau.
+            Di provinsi ini juga memiliki Danau Singkarak yang juga cukup terkenal.
+            Jika ingin melihat keindahan alam Sumatera Barat dilengkapi dengan
+            kebudayaan Minang yang sangat kental, maka berkunjung lah ke Danau Maninjau.
+        </item>
+        <item>Riau dikenal memiliki wisata alam yang mendunia, yakni wisata alam ombak bono.
+        Bono merupakan fenomena alam dimana tempat pertemuan antara arus air tawar dan air laut
+        menghasilan satu momentum gelombang yang terjadi di air tawar. Tempat ini berada di
+        Pelalawan, Riau dan merupakan salah satu objek wisata alam yang banyak dikunjungi turis
+        peselancar dari luar negara.
+        </item>
+        <item>
+          Sumatera Selatan juga memiliki banyak wisata alam yang bisa dikunjungi. Wisata air terjun
+            bisa ditemukan di beberapa tempat di propinsi ini, diantaranya adalah air terjun bidadari,
+            air terjun temam, air terjun bedegung, air terjun lematang dan sebagainya. Tempat wisata
+            sejarah juga banyak di propinsi ini seperti Jembatan Ampera yang cukup terkenal.
+        </item>
+        <item>
+        Wisata gunung yang cukup indah bisa Anda temukan di tanah karo Sumatera Utara. Gunung Sibayak
+            merupakan lokasi pertanian yang subur dengan pemandangan alam yang sangat indah. Kesegaran
+            udara di kawasan ini sangat terasa, berbagai wisata disediakan di tempat ini seperti wisata
+            berkuda, wisata sejarah dan sebagainya.
+        </item>
+        <item>
+            Di Lampung cukup banyak ditemukan tempat wisata alam dalam bentuk taman nasional. Salah satunya adalah Taman Nasional Bukit Barisan yang cukup terkenal. Di sini merupakan cagar alam tempat melindungi spesies flora dan fauna.
+
+            Beberapa taman nasional lain yang ada di Lampung diantaranya adalah Taman Purbakala Pugung Raharjo, Taman Nasional Way Kambas dan Taman Wisata Lembah Hijau.
+        </item>
+        <item>
+        Aceh juga memiliki banyak wisata pantai yang indah, salah satunya adalah Pantai Batu Batu Bertupang. Pantai yang indah lainnya adalah Pantai Lampuuk, Pantai Terong, Pantai Kuala Parek dan Pantai Pasir Saka.
+        </item>
+    </string-array>
+    <array name="gb_wisata">
+        <item>@drawable/wsumbar</item>
+        <item>@drawable/wriau</item>
+        <item>@drawable/wsumsel</item>
+        <item>@drawable/wsumut</item>
+        <item>@drawable/wlampung</item>
+        <item>@drawable/waceh</item>
+    </array>
 </resources>
