@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Wisata;
+package id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Tari;
 
 import android.content.ContentResolver;
 import android.content.Intent;
@@ -31,16 +31,16 @@ import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Tentangkami;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.rumh.Rumah;
 
 /**
- * Created by Smktelkom on 11/26/2016.
+ * Created by Smktelkom on 12/03/2016.
  */
-public class Wisata extends AppCompatActivity implements WisataAdapter.IHotelAdapter {
+public class Tari extends AppCompatActivity implements TariAdapter.IHotelAdapter {
     public static final String HOTEL = "hotel";
     public static final int REQUEST_CODE_ADD = 88;
     public static final int REQUEST_CODE_EDIT = 99;
-    ArrayList<WisataModel> mList = new ArrayList<>();
-    WisataAdapter mAdapter;
+    ArrayList<TariModel> mList = new ArrayList<>();
+    TariAdapter mAdapter;
     int itemPos;
-    ArrayList<WisataModel> mListALL = new ArrayList<>();
+    ArrayList<TariModel> mListALL = new ArrayList<>();
     boolean isfiltered;
     ArrayList<Integer> mListMapFilter = new ArrayList<>();
     String mQuery;
@@ -52,8 +52,8 @@ public class Wisata extends AppCompatActivity implements WisataAdapter.IHotelAda
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Wisata Daerah");
-        setContentView(R.layout.wisata);
+        setTitle("Tari Daerah");
+        setContentView(R.layout.tari);
         // Menginisiasi Toolbar dan mensetting sebagai actionbar
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -132,7 +132,7 @@ public class Wisata extends AppCompatActivity implements WisataAdapter.IHotelAda
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new WisataAdapter(this, mList);
+        mAdapter = new TariAdapter(this, mList);
         recyclerView.setAdapter(mAdapter);
 
         fillData();
@@ -152,12 +152,12 @@ public class Wisata extends AppCompatActivity implements WisataAdapter.IHotelAda
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_CODE_ADD && resultCode == RESULT_OK) {
-            WisataModel hotel = (WisataModel) data.getSerializableExtra(HOTEL);
+            TariModel hotel = (TariModel) data.getSerializableExtra(HOTEL);
             mList.add(hotel);
             mAdapter.notifyDataSetChanged();
             //mAdapter.notifyDataSetChanged();
         } else if (requestCode == REQUEST_CODE_EDIT && resultCode == RESULT_OK) {
-            WisataModel hotel = (WisataModel) data.getSerializableExtra(HOTEL);
+            TariModel hotel = (TariModel) data.getSerializableExtra(HOTEL);
             mList.remove(itemPos);
             if (isfiltered) mListALL.remove(mListMapFilter.get(itemPos).intValue());
             mList.add(itemPos, hotel);
@@ -181,7 +181,7 @@ public class Wisata extends AppCompatActivity implements WisataAdapter.IHotelAda
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new WisataModel(arJudul[i], arDescripsi[i], arFoto[i], arDetail[i]));
+            mList.add(new TariModel(arJudul[i], arDescripsi[i], arFoto[i], arDetail[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
@@ -223,7 +223,7 @@ public class Wisata extends AppCompatActivity implements WisataAdapter.IHotelAda
         } else {
             mListMapFilter.clear();
             for (int i = 0; i < mListALL.size(); i++) {
-                WisataModel hotel = mListALL.get(i);
+                TariModel hotel = mListALL.get(i);
                 if (hotel.judul.toLowerCase().contains(mQuery) || hotel.descripsi.toLowerCase().contains(mQuery)) {
                     mList.add(hotel);
                     mListMapFilter.add(i);

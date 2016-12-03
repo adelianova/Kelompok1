@@ -606,6 +606,15 @@
         <item>Gunung Sibayak</item>
         <item>Taman Nasional Bukit Barisan</item>
         <item>Pantai Batu Batu Bertupang</item>
+        <item>Candi Penataran</item>
+        <item>Pantai Mrutu</item>
+        <item>Kebun Raya Bogor</item>
+        <item>Dataran Tinggi Dieng</item>
+        <item>Taman Nasional Bantimurung Bulusaraung</item>
+        <item>Pulau Wangiwangi</item>
+        <item>Pantai Seminyak</item>
+        <item>Taman Nasional Komodo</item>
+        <item>Pulau Banda</item>
     </string-array>
     <string-array name="pr_wisata">
         <item>Sumatera Barat</item>
@@ -614,6 +623,16 @@
         <item>Sumatera Utara</item>
         <item>Lampung</item>
         <item>Aceh</item>
+        <item>Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Sulawesi Sekatan</item>
+        <item>Sulawesi Utara</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara</item>
+        <item>Maluku</item>
     </string-array>
     <string-array name="dt_wisata">
         <item>
@@ -649,7 +668,59 @@
         <item>
         Aceh juga memiliki banyak wisata pantai yang indah, salah satunya adalah Pantai Batu Batu Bertupang. Pantai yang indah lainnya adalah Pantai Lampuuk, Pantai Terong, Pantai Kuala Parek dan Pantai Pasir Saka.
         </item>
+        <item>
+            Candi Prambanan atau Candi Roro Jonggrang adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi. Candi ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu Brahma sebagai dewa pencipta, Wishnu sebagai dewa pemelihara, dan Siwa sebagai dewa pemusnah. Berdasarkan prasasti Siwagrha nama asli kompleks candi ini adalah Siwagrha (bahasa Sanskerta yang bermakna 'Rumah Siwa'), dan memang di garbagriha (ruang utama) candi ini bersemayam arca Siwa Mahadewa setinggi tiga meter yang menujukkan bahwa di candi ini dewa Siwa lebih diutamakan.
+            Kompleks candi ini terletak di kecamatan Prambanan, Sleman dan kecamatan Prambanan, Klaten, kurang lebih 17 kilometer timur laut Yogyakarta, 50 kilometer barat daya Surakarta dan 120 kilometer selatan Semarang, persis di perbatasan antara provinsi Jawa Tengah dan Daerah Istimewa Yogyakarta. Letaknya sangat unik, Candi Prambanan terletak di wilayah administrasi desa Bokoharjo, Prambanan, Sleman, sedangkan pintu masuk kompleks Candi Prambanan terletak di wilayah adminstrasi desa Tlogo, Prambanan, Klaten.
+        </item>
+        <item>
+            Pantai Mrutu terletak di sebelah barat daya kota Malang, tepatnya di Desa Sumberoto, Kecamatan Donomulyo, Kabupaten Malang, Jawa Timur. Disebut Pantai Mrutu, sebab di kawasan pantai ini dihuni banyak sekali hewan mrutu (orang Jawa menyebut lemut), yaitu sejenis nyamuk kecil. Sesuai namanya yang cukup singkat, ternyata lokasi pesisir inipun juga bisa dibilang ‘singkat’ alias tidak terlalu luas.
+            Luas hamparan Pantai Mrutu tak lebih dari 200 meter. Namun jangan dikira pantai kecil tersebut tak menawarkan keindahan yang menawan. Kemolekan panoramanya tak kalah menarik dari pantai lainnya di kota Malang. Adapun salah satu kelebihan Pantai Mrutu dibanding pantai yang lain adalah ombaknya yang tenang. Ombak yang datang dari lautan luas ke bibir pantai ini seperti berjalan pelan-pelan dan halus. Tak hanya itu, ombak dan gelombang tersebut seakan tak mau menimbulkan suara yang berisik. Hal ini dikarenakan posisi pantai yang sedikit terhalang tebing sehingga ombak besar tidak bisa langsung ke bibir pantai. Gulungan ombak yang menyapu Pantai Mrutu hanya ombak kecil yang lembut, sebab ombak yang besar menghantam Pantai Pandan yang terletak di sebelah timur Pantai Mrutu. Jarak kedua pantai ini memang hanya dibatasi oleh sebuah bukit yang rendah.
+        </item>
+        <item>
+            Kebun Raya Bogor atau Kebun Botani Bogor adalah sebuah kebun botani besar yang terletak di Kota Bogor, Indonesia. Luasnya mencapai 87 hektaree dan memiliki 15.000 jenis koleksi pohon dan tumbuhan.
+            Saat ini Kebun Raya Bogor ramai dikunjungi sebagai tempat wisata, terutama hari Sabtu dan Minggu. Di sekitar Kebun Raya Bogor tersebar pusat-pusat keilmuan yaitu Herbarium Bogoriense, Museum Zoologi Bogor, dan PUSTAKA.
+        </item>
+        <item>Dataran Tinggi Dieng adalah kawasan vulkanik aktif di Jawa Tengah, yang masuk wilayah Kabupaten Banjarnegara dan Kabupaten Wonosobo. Letaknya berada di sebelah barat kompleks Gunung Sindoro dan Gunung Sumbing.
+
+Dieng memiliki Ketinggian rata-rata adalah sekitar 2.000 m di atas permukaan laut. Suhu berkisar 12—20 °C di siang hari dan 6—10 °C di malam hari. Pada musim kemarau (Juli dan Agustus), suhu udara dapat mencapai 0 °C di pagi hari dan memunculkan embun beku yang oleh penduduk setempat disebut bun upas ("embun racun") karena menyebabkan kerusakan pada tanaman pertanian.
+
+Secara administrasi, Dieng merupakan wilayah Desa Dieng Kulon, Kecamatan Batur, Kabupaten Banjarnegara dan Dieng ("Dieng Wetan"), Kecamatan Kejajar, Kabupaten Wonosobo. Wilayah ini merupakan salah satu wilayah paling terpencil di Jawa Tengah.</item>
+    <item>Taman Nasional Bantimurung-Bulusaraung (atau disingkat TN Babul) terletak di Sulawesi Selatan, seluas ± 43.750 Ha. Secara administrasi pemerintahan, kawasan taman nasional ini terletak di wilayah Kabupaten Maros dan Kabupaten Pangkajene Kepulauan (Pangkep).[1] Secara geografis areal ini terletak antara 119° 34’ 17” – 119° 55’ 13” Bujur Timur dan antara 4° 42’ 49” – 5° 06’ 42” Lintang Selatan. Secara kewilayahan, batas-batas TN Babul adalah sebagai berikut : Sebelah Utara berbatasan dengan Kabupaten Pangkep, Barru dan Bone, Sebelah Timur berbatasan dengan Kabupaten Maros dan Kabupaten Bone, Sebelah Selatan berbatasan dengan Kabupaten Maros dan Sebelah Barat berbatasan dengan Kabupaten Maros dan Kabupaten Pangkep.
+
+        Taman nasional ini ditunjuk menjadi kawasan konservasi atau taman nasional berdasarkan Keputusan Menteri Kehutanan Nomor : SK.398/Menhut-II/2004 tanggal 18 Oktober 2004. Saat ini dikelola oleh Balai Taman Nasional Bantimurung-Bulusaraung, yang berkedudukan di kecamatan Bantimurung, Maros, Sulawesi Selatan.
+    </item>
+    <item>
+        Bunaken adalah sebuah pulau seluas 8,08 km² di Teluk Manado, yang terletak di utara pulau Sulawesi, Indonesia. Pulau ini merupakan bagian dari kota Manado, ibu kota provinsi Sulawesi Utara, Indonesia. Pulau Bunaken dapat di tempuh dengan kapal cepat (speed boat) atau kapal sewaan dengan perjalanan sekitar 30 menit dari pelabuhan kota Manado. Di sekitar pulau Bunaken terdapat taman laut Bunaken yang merupakan bagian dari Taman Nasional Bunaken. Taman laut ini memiliki biodiversitas kelautan salah satu yang tertinggi di dunia. Selam scuba menarik banyak pengunjung ke pulau ini. Secara keseluruhan taman laut Bunaken meliputi area seluas 75.265 hektare dengan lima pulau yang berada di dalamnya, yakni Pulau Manado Tua (Manarauw), Pulau Bunaken, Pulau Siladen, Pulau Mantehage berikut beberapa anak pulaunya, dan Pulau Naen. Meskipun meliputi area 75.265 hektare, lokasi penyelaman (diving) hanya terbatas di masing-masing pantai yang mengelilingi kelima pulau itu.
+
+        Taman laut Bunaken memiliki 20 titik penyelaman (dive spot) dengan kedalaman bervariasi hingga 1.344 meter. Dari 20 titik selam itu, 12 titik selam di antaranya berada di sekitar Pulau Bunaken. Dua belas titik penyelaman inilah yang paling kerap dikunjungi penyelam dan pecinta keindahan pemandangan bawah laut.
+    </item>
+        <item>Pulau Wangiwangi atau juga masyarakat sekitar menyebutnya Pulau Wanci adalah sebuah pulau di Sulawesi Tenggara yang terkenal akan keindahan lautnya. Di bagian barat berbatasan dengan Pulau Kapota jaraknya cukup dekat sekitar 10 kilometer. Pulau ini menjadi bagian dari Kepulauan Tukangbesi.</item>
+    <item>Pantai seminyak (beberapa orang menyebutnya Pantai Dhyanapura) terletak kawasan Desa Seminyak, Kecamatan Kuta, Kabupaten Badung. Pantai ini memiliki pasir yang sangat lembut dan landai. Di dekat pantai ini terdapat banyak restorant, hotel, maupun villa, sehingga banyak wisatawan mancanegara dan wisatawan lokal yang datang.
+
+        Pantai ini terletak di sebelah utara pantai Kuta. Atmosfernya hampir sama dengan pantai Kuta, namun karena lokasinya agak jauh dari pusat keramaian Kuta, pengunjung pantai Legian dan Seminyak tidak sebanyak pantai Kuta.
+
+        Kawasan Legian awalnya adalah sebuah desa agraris. Meski letaknya di tepi pantai, sebagian besar warganya hidup dari bertani. Hanya sebagian kecil warga Legian berprofesi sebagai nelayan. Begitu kunjungan ke kawasan wisata Kuta semakin membludak, luberan pengunjung mengarah ke Legian dan Seminyak yang letaknya bersebelahan. Dua desa tersebut pun turut berbenah dan menyediakan berbagai fasilitas untuk pelancong.
+    </item>
+        <item>
+            Taman Nasional Komodo terletak di antara provinsi Nusa Tenggara Timur dan Nusa Tenggara Barat.
+
+Taman nasional ini terdiri atas tiga pulau besar Pulau Komodo, Pulau Rinca, dan Pulau Padar serta beberapa pulau kecil. Wilayah darat taman nasional ini 603 km² dan wilayah total adalah 1817 km².
+
+Pada tahun 1980 taman nasional ini didirikan untuk melindungi komodo dan habitatnya. Di sana terdapat 277 spesies hewan yang merupakan perpaduan hewan yang berasal dari Asia dan Australia, yang terdiri dari 32 spesies mamalia, 128 spesies burung, dan 37 spesies reptilia. Bersama dengan komodo, setidaknya 25 spesies hewan darat dan burung termasuk hewan yang dilindungi, karena jumlahnya yang terbatas atau terbatasnya penyebaran mereka.
+
+Selain itu, di kawasan ini terdapat pula terumbu karang. Setidaknya terdapat 253 spesies karang pembentuk terumbu yang ditemukan di sana, dengan sekitar 1.000 spesies ikan. Keindahan terumbu ini menarik minat wisatawan asing untuk berenang atau menyelam di perairan ini.
+
+Pulau-pulau ini aslinya adalah pulau vulkanis. Jumlah penduduk di wilayah ini kurang lebih adalah 4.000 jiwa. Pada tahun 1991 taman nasional ini diterima sebagai Situs Warisan Dunia UNESCO.
+        </item>
+        <item>
+            Banda Neira atau Banda Naira adalah salah satu pulau di Kepulauan Banda, dan merupakan pusat administratif Kecamatan Banda, Kabupaten Maluku Tengah, Maluku, Indonesia. Secara administratif, Banda Neira terbagi dalam 6 desa, yakni Dwiwarna, Kampung Baru, Merdeka, Nusantara, Rajawali, dan Tanah Rata.
+
+Topografi pulau ini cenderung datar, sehingga memungkinkan didirikannya kota kecil. Pulau Banda Neira memiliki kantor pemerintahan, toko, dermaga, dan bandara. Penduduk pulau ini berjumlah 14.000.
+
+Banda Neira pernah menjadi pusat perdagangan pala dan fuli dunia, karena Kep. Banda adalah satu-satunya sumber rempah-rempah yang bernilai tinggi itu hingga pertengahan abad ke-19. Kota modernnya didirikan oleh anggota VOC, yang membantai penduduk Banda untuk mendapatkan palanya pada tahun 1621 dan membawa yang tersisa ke Batavia (kini Jakarta) untuk dijadikan budak.
+        </item>
     </string-array>
+
     <array name="gb_wisata">
         <item>@drawable/wsumbar</item>
         <item>@drawable/wriau</item>
@@ -657,6 +728,16 @@
         <item>@drawable/wsumut</item>
         <item>@drawable/wlampung</item>
         <item>@drawable/waceh</item>
+        <item>@drawable/wjogja</item>
+        <item>@drawable/wmalang</item>
+        <item>@drawable/wkrb</item>
+        <item>@drawable/wdieng</item>
+        <item>@drawable/wsulsel</item>
+        <item>@drawable/wsulut</item>
+        <item>@drawable/wsulteng</item>
+        <item>@drawable/wbali</item>
+        <item>@drawable/wnt</item>
+        <item>@drawable/wmaluku</item>
     </array>
 
     //Array pakaian
@@ -761,5 +842,117 @@
         <item>@drawable/b8</item>
         <item>@drawable/b9</item>
         <item>@drawable/b10</item>
+    </array>
+
+    <string-array name="jd_tari">
+        <item>Tari Seudati</item>
+        <item>Tari Piring</item>
+        <item>Tari Serampang Dua Belas</item>
+        <item>Tari Tandak</item>
+        <item>Tari Andun</item>
+        <item>Tari Sekapur Sirih</item>
+        <item>Tari Campak</item>
+        <item>Tari Tanggai</item>
+        <item>Tari Jangget</item>
+        <item>Tari Topeng</item>
+    </string-array>
+    <string-array name="dk_tari">
+        <item>Nangroe Aceh Darussalam</item>
+        <item>Sumatera Barat</item>
+        <item>Sumatera Utara</item>
+        <item>Riau</item>
+        <item>Bengkulu</item>
+        <item>Jambi</item>
+        <item>Bangka Belitung</item>
+        <item>Sumatera Selatan</item>
+        <item>Lampung</item>
+        <item>DKI Jakarta</item>
+    </string-array>
+    <string-array name="dt_tari">
+        <item>
+            Tari Seudati adalah nama tarian yang berasal dari provinsi Aceh. Seudati berasal dari kata Syahadat, yang berarti
+            saksi/bersaksi/pengakuan terhadap Tiada Tuhan selain Allah, dan Nabi Muhammad utusan Allah.
+            Tarian ini juga termasuk kategori Tribal War Dance atau Tari Perang, yang mana syairnya selalu membangkitkan semangat
+            pemuda Aceh untuk bangkit dan melawan penjajahan. Oleh sebab itu tarian ini sempat dilarang pada zaman penjajahan
+            Belanda, tetapi sekarang tarian ini diperbolehkan kembali dan menjadi Kesenian Nasional Indonesia.
+        </item>
+        <item>
+            Tari Piring atau dalam bahasa Minangkabau disebut dengan Tari Piriang adalah salah satu seni tari tradisional di
+            Minangkabau yang berasal dari kota Solok, provinsi Sumatera Barat. Tarian ini dimainkan dengan menggunakan piring
+            sebagai media utama. Piring-piring tersebut kemudian diayun dengan gerakan-gerakan cepat yang teratur, tanpa terlepas
+            dari genggaman tangan. Tari Piring merupakan sebuah simbol masyarakat Minangkabau. Di dalam tari piring gerak dasarnya
+            terdiri daripada langkah-langkah Silat Minangkabau atau Silek
+        </item>
+        <item>
+           Tari Serampang Dua Belas adalah salah satu tarian tradisional yang berasal dari Serdang Bedagai, Sumatera Utara. Tarian ini
+            termasuk tarian pergaulan yang dimainkan oleh beberapa penari pria dan wanita secara berpasangan. Selain kaya akan nilai seni,
+            tarian ini juga kaya akan makna dan nilai-nilai kehidupan di dalamnya. Tari Serampang Dua Belas merupakan salah satu tarian yang
+            sangat terkenal di Sumatera Utara, terutama di daerah Serdang Bedagai sebagai daerah asalnya. Tarian ini bahkan juga dikenal di
+            daerah berbudaya Melayu lain seperti Riau, Jambi, dan beberapa daerah lainnya.
+        </item>
+        <item>
+                Tari Tandak adalah salah satu tarian tradisional yang berasal dari daerah Riau dan Kepulauan Riau. Tarian ini tergolong tarian
+            pergaulan yang biasanya ditampilkan oleh para penari pria dan penari wanita. Dengan berbusana tradisional melayu mereka menari
+            dengan gerakannya yang khas dan diiringi oleh lagu dan alunan musik pengiring. Tari Tandak ini merupakan salah satu tarian
+            tradisional yang cukup terkenal di daerah Riau dan Kepulauan Riau. Tarian ini biasanya sering ditampilkan di berbagai acara, baik
+            acara adat maupun acara budaya yang diselenggarakan di sana.        </item>
+        <item>
+            Tari Andun adalah salah satu tarian tradisional yang berasal dari daerah Bengkulu. Tarian ini termasuk jenis tarian pergaulan yang
+            biasanya ditampilkan oleh para penari pria dan penari wanita. Tari Andun merupakan tarian tradisional yang cukup terkenal di Bengkulu,
+            terutama di daerah Bengkulu  Selatan. Tarian ini biasanya sering ditampilkan di berbagai acara seperti acara adat, penyambutan, maupun
+            acara budaya yang diselenggarakan di sana.
+
+        </item>
+        <item>
+        Tari Sekapur Sirih merupakan tarian selamat datang kepada tamu-tamu besar di Provinsi Jambi dan Riau.dan juga terkenal di malaysia sebagai
+        tarian wajib kepada tamu besarKeagungan dalam gerak yang lembut dan halus menyatu dengan iringan musik serta syair yang ditujukan bagi para
+        tamu. Menyambut dengan hati yang putih muka yang jernih menunjukkan keramahtamahan bagi tetamu yang dihormati.Tari ini menggambarkan ungkapan
+        rasa putih hati masyarakat dalam menyambut tamu. Sekapur Sirih biasanya ditarikan oleh 9 orang penari perempuan, dan 3 orang penari laki-laki,
+        1 orang yang bertugas membawa payung dan 2 orang pengawal. Propetri yang digunakan: cerano/wadah yang berisikan lembaran daun sirih, payung, keris.
+        Pakaian: baju kurung /adat Jambi, iringan musik langgam melayu dengan alat musik yang terdiri dari : biola, gambus, akordion, rebana, gong dan gendang.
+        </item>
+        <item>
+            Tari Campak merupakan tarian dari daerah Bangka-Belitung yang menggambarkan keceriaan bujang dan dayang di Kepulauan Bangka Belitung. Tarian ini
+            biasanya dibawakan setelah panen padi atau sepulang dari ume (kebun).
+            Tari ini digunakan juga sebagai hiburan dalam berbagai kegiatan seperti penyambutan tamu atau pada pesta pernikahan di Bangka Belitung. Tarian
+            ini berkembang pada masa pendudukan bangsa Portugis di Bangka Belitung. Hal ini bisa dilihat dari beberapa ragam pada tari Campak antara lain
+            akordion dan pakaian pada penari perempuan yang sangat kental dengan gaya Eropa.
+        </item>
+        <item>
+            Tari tanggai dibawakan pada saat menyambut tamu-tamu resmi atau dalam acara pernikahan. Umumnya tari ini dibawakan oleh lima orang dengan memakai
+            pakaian khas daerah seperti kaian songket, dodot, pending, kalung, sanggul malang, kembang urat atau rampai, tajuk cempako, kembang goyang dan
+            tanggai yang berbentuk kuku terbuat dari lempengan tembaga Tari ini merupakan perpaduan antara gerak yang gemulai busana khas daerah para penari
+            kelihatan anggun dengan busana khas daerah. Tarian menggambarkan masyarakat palembang yang ramah dan menghormati, menghargai serta menyayangi tamau
+            yang berkunjung ke daerahnya
+        </item>
+
+        <item>
+            Tarian yang pertama atau ada di Lampung ini sendiri adalah tarian jangget, dimana seperti yang kita tahu tarian ini sendiri sudah sangat terkenal
+            di provinsi ini sendiri dan salah satu tarian yang paling sering digunakan oleh warga daerah provinsi ini sendiri. Dalam tarian ini sendiri tentu
+            saja memiliki makna tersendiri bagi orang yang menciptakannya, seperti halnya pada tarian-tarian daerah Indonesia lainnya yang tercipta bukan karena
+            tidak ada arti sama sekali tetapi dalam tarian ini tentu saja memiliki makna yang sangat besar sekali dalam isi dan juga gerakan yang ada pada tarian
+            ini sendiri sehingga orang yang melihat pun dapat mengerti apa arti dari tarian ini sendiri. Selain daripada itu gerakan-gerakan yang dibuat sendiri
+            memiliki makna dan juga arti yang penting.
+        </item>
+        <item>
+            Tari Topeng adalah tarian yang penarinya mengenakan topeng. Topeng telah ada di dunia sejak zaman pra-sejarah. Secara luas digunakan dalam tari yang
+            menjadi bagian dari upacara adat atau penceritaan kembali cerita-cerita kuno dari para leluhur. Diyakini bahwa topeng berkaitan erat dengan roh-roh
+            leluhur yang dianggap sebagai interpretasi dewa-dewa. Pada beberapa suku, topeng masih menghiasi berbagai kegiatan seni dan adat sehari-hari.
+
+            Cerita klasik Ramayana dan cerita Panji yang berkembang sejak ratusan tahun lalu menjadi inspirasi utama dalam penciptaan topeng di Jawa. Topeng-topeng
+            di Jawa dibuat untuk pementasan sendratari yang menceritakan kisah-kisah klasik tersebut.
+        </item>
+    </string-array>
+    <array name="gb_tari">
+        <item>@drawable/t1</item>
+        <item>@drawable/t2</item>
+        <item>@drawable/t3</item>
+        <item>@drawable/t4</item>
+        <item>@drawable/t5</item>
+        <item>@drawable/t6</item>
+        <item>@drawable/t7</item>
+        <item>@drawable/t8</item>
+        <item>@drawable/t9</item>
+        <item>@drawable/t10</item>
     </array>
 </resources>
