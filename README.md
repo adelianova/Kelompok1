@@ -12,7 +12,7 @@ pakaian adat, wisata daerah, dan rumah adat.<br>
 <ol><li>Nama          : Adelia Nova Choirunnissa <br>
         Kelas         : XI RPL 6 <br>
         No Urut       : 01 <br>
-        NIS           : <br>
+        NIS           : 4649/1368.070<br>
         User GitHub   : adelianova<br>
         Nama Sekolah  : SMK Telkom Malang</li>
     <li>Nama          : Dini Eka Ristanti <br>
@@ -24,13 +24,13 @@ pakaian adat, wisata daerah, dan rumah adat.<br>
     <li>Nama          : Mochammad Alauddin Almuayyad <br>
         Kelas         : XI RPL 6 <br>
         No Urut       : 19 <br>
-        NIS           : <br>
+        NIS           : 4753/1472.070<br>
         User GitHub   : mochal97<br>
         Nama Sekolah  : SMK Telkom Malang</li>
     <li>Nama          : Ni Made Elvina Aryadhika Putri <br>
         Kelas         : XI RPL 6 <br>
         No Urut       : 28 <br>
-        NIS           : <br>
+        NIS           : 4788/1507.070<br>
         User GitHub   : elvinadhika<br>
         Nama Sekolah  : SMK Telkom Malang</li></ol>
 
