@@ -6,7 +6,7 @@ pakaian adat, wisata daerah, dan rumah adat.<br>
 ![screenshot_2016-12-03-20-02-00-61](https://cloud.githubusercontent.com/assets/22124865/20859509/ef8b1d5a-b993-11e6-80e9-b01cbdc8d746.png)<br>
 ![screenshot_2016-12-03-20-02-11-85](https://cloud.githubusercontent.com/assets/22124865/20859510/ef91f2a6-b993-11e6-9d4c-72a9f370098a.png)<br>
 ![screenshot_2016-12-03-20-02-17-41](https://cloud.githubusercontent.com/assets/22124865/20859511/ef94c42c-b993-11e6-8728-f4ed8fa85da2.png)<br>
- Video Aplikasi.
+[![Alt text for your video](http://img.youtube.com/vi/3tAjpkxQbZA/0.jpg)](https://youtu.be/3tAjpkxQbZA)
  Link File Apk dari Aplikasi.
 <h1>Identitas tiap anggota kelompok</h1>
 <ol><li>Nama          : Adelia Nova Choirunnissa <br>
