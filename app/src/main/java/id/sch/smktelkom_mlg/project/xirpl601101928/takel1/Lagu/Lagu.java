@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project.xirpl601101928.takel1;
+package id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Lagu;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,9 +11,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.MainActivity;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Makann.Makanan;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Pakain.Pakaian;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Prov.Provinsi;
+import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Tentangkami;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Wisata.Wisata;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.rumh.Rumah;
 

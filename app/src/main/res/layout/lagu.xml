@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".Lagu">
+    tools:context=".Lagu.Lagu">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,6 +24,41 @@
             android:layout_gravity="center_horizontal"
             android:text="Lagu"
             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/buttonAceh"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="lAGU ACEH" />
+
+        <Button
+            android:id="@+id/buttonBali"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="LAGU BALI" />
+
+        <Button
+            android:id="@+id/buttonJatim"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="LAGU JAWA TIMUR" />
+
+        <Button
+            android:id="@+id/buttonJateng"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="LAGU JAWA TENGAH" />
+
+        <Button
+            android:id="@+id/buttonJabar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="LAGU JAWA BARAT" />
 
     </LinearLayout>
 
