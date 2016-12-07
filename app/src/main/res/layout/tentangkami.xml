@@ -96,7 +96,7 @@
             android:layout_marginBottom="22dp"
             android:layout_toLeftOf="@+id/imageView5"
             android:layout_toStartOf="@+id/imageView5"
-            android:background="#fffffff"
+            android:background="#ffffff"
             android:text=" Ni Made Elvina A.P.  \n Bali, 12 Februari 2000 \n  ni_putri_24rpl@student.smktelkom.mlg.sch.id"/>
 
         <ImageView
