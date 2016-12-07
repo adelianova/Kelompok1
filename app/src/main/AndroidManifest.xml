@@ -15,7 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Lagu"/>
+        <activity android:name=".Lagu.Lagu" />
         <activity android:name=".Makann.Makanan"/>
         <activity android:name=".Pakain.Pakaian" />
         <activity android:name=".Prov.Provinsi"/>

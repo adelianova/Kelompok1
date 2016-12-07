@@ -24,7 +24,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Lagu;
+import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Lagu.Lagu;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.MainActivity;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Makann.Makanan;
 import id.sch.smktelkom_mlg.project.xirpl601101928.takel1.Pakain.Pakaian;
