@@ -106,6 +106,45 @@ public class Lagu extends AppCompatActivity {
         drawerLayout.setDrawerListener(actionBarDrawerToggle);
         //memanggil synstate
         actionBarDrawerToggle.syncState();
+
+        findViewById(R.id.buttonAceh).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Lagu.this, Lagu_Aceh.class));
+            }
+        });
+
+
+        findViewById(R.id.buttonBali).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Lagu.this, Lagu_Bali.class));
+            }
+        });
+
+
+        findViewById(R.id.buttonJabar).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Lagu.this, Lagu_Jabar.class));
+            }
+        });
+
+
+        findViewById(R.id.buttonJateng).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Lagu.this, Lagu_Jateng.class));
+            }
+        });
+
+
+        findViewById(R.id.buttonJatim).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Lagu.this, Lagu_Jatim.class));
+            }
+        });
     }
 
     @Override
